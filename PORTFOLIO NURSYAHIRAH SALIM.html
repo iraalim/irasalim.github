@@ -1,13 +1,51 @@
 <!DOCTYPE>
 <html>
 <head>
+  <title>Portfolio - Wheather &amp; Time</title>
   <title>My first styled portfolio</title>
+  <link rel="stylesheet" href="./style2.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
+<!-- partial:index.partial.html -->
+<main>
+  
+  <div class="main-container container">
+    <h1>Weather & Time</h1>
+
+    <form1>
+      <input type="text" name="city" id="city" placeholder="Enter your city name" />
+      <button type="submit" class="btn">Search</button>
+    </form1>
+
+    <div class="error"></div>
+
+    <div class="weather-container container">
+
+      <!-- City, Country -->
+      <p class="location-info">
+        <span class="city"></span>, <span class="country"></span> -
+        <span class="time"></span>
+      </p>
+
+      <!-- icon -->
+      <img id="icon" src="" alt="icon" />
+
+      <!-- Temp -->
+      <h2 class="temp"></h2>
+
+      <!-- Weather description -->
+      <h4 class="description"></h4>
+    </div>
+  </div>
+</main>
+<body>
+
+<!-- partial -->
+  <script  src="./script.js"></script>
 
 <!-- Site navigation menu -->
 
